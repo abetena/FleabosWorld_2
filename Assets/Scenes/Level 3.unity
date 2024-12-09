@@ -7354,7 +7354,8 @@ GameObject:
   - component: {fileID: 1079335538}
   - component: {fileID: 1079335537}
   - component: {fileID: 1079335540}
-  - component: {fileID: 1079335539}
+  - component: {fileID: 1079335542}
+  - component: {fileID: 1079335541}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Untagged
@@ -7429,19 +7430,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1079335539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079335536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: Level 3
 --- !u!61 &1079335540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7487,6 +7475,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.500385, y: 3.043614}
   m_EdgeRadius: 0
+--- !u!114 &1079335541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079335536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: Dog
+--- !u!114 &1079335542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079335536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810546aa5348745779a5772744036fd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1079335541}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+  frequency: 1
+  eventType: 0
 --- !u!1 &1098938546
 GameObject:
   m_ObjectHideFlags: 0

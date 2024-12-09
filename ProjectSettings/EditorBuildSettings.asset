@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/How To Play.unity
     guid: d26cf128139ac3c4092c432ae30b3745
+  - enabled: 1
+    path: Assets/Scenes/Dog.unity
+    guid: 78cab889f2e68384b873b5c8a8260f68
   m_configObjects: {}
