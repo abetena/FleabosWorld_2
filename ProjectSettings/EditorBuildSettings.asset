@@ -24,13 +24,13 @@ EditorBuildSettings:
     path: Assets/UnityTechnologies/Playground/Examples/Roguelike/Roguelike.unity
     guid: ad15a26015e49439387b05c22fe7a962
   - enabled: 1
-    path: Assets/Scenes/Level 1_Old.unity
+    path: Assets/Scenes/Level 1.unity
     guid: 468ebfd8e71b74f9eb00081f70bfb495
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level 2.unity
     guid: b0a95e5aba34944ca934007758e83304
   - enabled: 1
-    path: Assets/Scenes/Level 3.unity
+    path: Assets/Scenes/Level 2.unity
     guid: 02d84207546664a54bfb0912421d76e7
   - enabled: 1
     path: Assets/Scenes/How To Play.unity
